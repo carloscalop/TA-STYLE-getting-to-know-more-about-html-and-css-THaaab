@@ -1,0 +1,104 @@
+/* CSS reset */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+    margin:0;
+    padding:0;
+}
+html,body {
+    margin:0;
+    padding:0;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+fieldset,img { 
+    border:0;
+}
+input{
+    border:1px solid #b0b0b0;
+    padding:3px 5px 4px;
+    color:#979797;
+    width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+    font-style:normal;
+    font-weight:normal;
+}
+ol,ul {
+    list-style:none;
+}
+caption,th {
+    text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-size:100%;
+    font-weight:normal;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border:0;
+}
+/* Custom Styles */
+body {
+    line-height: 1.5;
+}
+.home {
+    
+}
+.header {
+    margin-left: 450px;
+    margin-right: 850px;
+}
+.content {
+    
+    margin-left: 450px;
+    margin-right: 850px;
+}
+h1{
+font-size: 26px;   
+font-weight: bold; 
+margin-top: 24px;
+margin-bottom: 24px;
+
+}
+h2 {
+    color:blue;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 450px;
+    margin-right: 850px;
+}
+
+p {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 18px;
+}
+article {
+margin-bottom: 10px;
+}
+.readmore{
+    margin-left: 465px;
+    margin-right: 850px;
+    color: blue;
+    }    
+    .line {
+        border-top: 1px solid gray;
+        height: 2px;
+        max-width: 850px;
+        padding: 0;
+        margin: -15px -10px 10px -10px;
+      }
+.links {
+    text-align: center;
+    background-color: lightpink;
+    padding: 8px;
+}
+.footer {
+    text-align: center;
+    background-color: lightsteelblue;
+    padding: 24px;
+}
